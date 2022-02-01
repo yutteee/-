@@ -1,0 +1,35 @@
+header {
+    background-color: teal;
+    height: 32px;
+}
+
+.logo {
+    color: white;
+    line-height: 32px;
+    padding-left: 16px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    width: 32%;
+}
+
+.form {
+    display: flex;
+}
+
+textarea {
+    width: 50%;
+    height: 800px;
+    margin-bottom: 32px;
+}
+
+footer {
+    background-color: rgb(232, 236, 240);
+}
