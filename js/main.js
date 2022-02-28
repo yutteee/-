@@ -281,14 +281,15 @@
         document.querySelector('.log').innerHTML = changed;
     };
 }
+// もっと綺麗に記述したい
 
-let before = ["思う", "米", "思った"];
-let after = ["考える", "ライス", "考えられた"];
-let src = "思う米思った";
+// let before = ["思う", "米", "思った"];
+// let after = ["考える", "ライス", "考えられた"];
+// let src = "思う米思った";
 
 
-for(let i=0, len=before.length; i<len; i++){
-    test = src.replace(before[i], after[i],"g");
-}
+// for(let i=0, len=before.length; i<len; i++){
+//     test = src.replace(before[i], after[i],"g");
+// }
 
-console.log(test);
+// console.log(test);

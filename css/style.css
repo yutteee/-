@@ -1,23 +1,24 @@
 header {
     background-color: teal;
-    height: 32px;
+    height: 64px;
 }
 
 .logo {
     color: white;
-    line-height: 32px;
-    padding-left: 16px;
+    line-height: 64px;
+    padding-left: 4%;
 }
 
 ul {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    padding-left: 0;
 }
 
 li {
     list-style: none;
-    width: 32%;
+    width: 33.3%;
 }
 
 .form {
@@ -25,11 +26,25 @@ li {
 }
 
 textarea {
-    width: 50%;
-    height: 800px;
+    display: flex;
+    width: 49%;
+    margin: 0 auto;
     margin-bottom: 32px;
+    height: 500px;
 }
 
 footer {
-    background-color: rgb(232, 236, 240);
+    text-align: center;
+    background-color: rgb(160, 160, 160);
+    padding: 8px 0 8px 0;
+}
+
+.icon {
+    width: 15%;
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
